@@ -6,8 +6,10 @@ public class MathCalculation {
 		MathCalculation obj = new MathCalculation();
 		obj.add(1, 2);
 	}
-	private void add(int a, int b) {
+	protected int add(int a, int b) {
+		int c= a + b ;
 		System.out.println("sum of two values :"+  a+b);
+		return c;
 	}
 
 }
